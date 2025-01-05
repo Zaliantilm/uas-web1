@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Penjualan Barang</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+     width: 100%;
+     height: 65vh;
+        }
+
+.logo {
+    max-width: 175px;
+    height: auto
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+}
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="" class="logo"> <!-- Ganti dengan path logo Anda -->
+        <nav>
+            <ul>
+                <li><a href="beranda_html">Beranda</a></li>
+                <li><a href="transaksi_html">Transaksi</a></li>
+                <li><a href="profil_html">Profil</a></li>
+                <li><a href="login_html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="row">
+        <div class="column">
+            <h1>Selamat Datang di Aplikasi Penjualan Barang</h1>
+            <img src="logo penjualan.jpg" alt="">
+            <blockquote></blockquote>
+     
+    <footer>
+        <p>&copy; 2025 Aplikasi Penjualan Barang. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda</title>
+</head>
+<body>
+    <h2>Selamat Datang di Aplikasi Penjualan Barang</h2>
+    <p>Ikuti langkah-langkah berikut untuk menggunakan aplikasi ini:</p>
+    <ol>
+        <li>Daftar atau Login ke akun Anda.</li>
+        <li>Isi form transaksi untuk melakukan pembelian.</li>
+        <li>Periksa daftar transaksi Anda untuk melihat riwayat pembelian.</li>
+</body>
+</html>
